@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Watchdog.Api", "Watchdog.Api\Watchdog.Api.csproj", "{39689026-1192-478F-B9F7-705510AFDC9D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Watchdog.SimilarDeals", "Watchdog.SimilarDeals\Watchdog.SimilarDeals.csproj", "{C9F8B8CA-5BC9-4413-AADB-979829C497A7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Watchdog.Infrastructure", "Watchdog.Infrastructure\Watchdog.Infrastructure.csproj", "{DA6981FA-230D-4D1F-884D-8D193CFA8590}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Watchdog.SimilarDeals.Infrastructure", "Watchdog.SimilarDeals.Infrastructure\Watchdog.SimilarDeals.Infrastructure.csproj", "{D993609F-D322-4BE5-AEF9-70C523C9DA8A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Watchdog.Common", "Watchdog.Common\Watchdog.Common.csproj", "{1EF72B01-2FB4-480A-AB5C-16D2D9FF7C4C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Watchdog.SimilarDeals.Tests", "Watchdog.SimilarDeals.Tests\Watchdog.SimilarDeals.Tests.csproj", "{C532FE18-363E-4A85-B964-B68552851B58}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{39689026-1192-478F-B9F7-705510AFDC9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39689026-1192-478F-B9F7-705510AFDC9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39689026-1192-478F-B9F7-705510AFDC9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39689026-1192-478F-B9F7-705510AFDC9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9F8B8CA-5BC9-4413-AADB-979829C497A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9F8B8CA-5BC9-4413-AADB-979829C497A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9F8B8CA-5BC9-4413-AADB-979829C497A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9F8B8CA-5BC9-4413-AADB-979829C497A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA6981FA-230D-4D1F-884D-8D193CFA8590}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA6981FA-230D-4D1F-884D-8D193CFA8590}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA6981FA-230D-4D1F-884D-8D193CFA8590}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA6981FA-230D-4D1F-884D-8D193CFA8590}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D993609F-D322-4BE5-AEF9-70C523C9DA8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D993609F-D322-4BE5-AEF9-70C523C9DA8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D993609F-D322-4BE5-AEF9-70C523C9DA8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D993609F-D322-4BE5-AEF9-70C523C9DA8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1EF72B01-2FB4-480A-AB5C-16D2D9FF7C4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EF72B01-2FB4-480A-AB5C-16D2D9FF7C4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EF72B01-2FB4-480A-AB5C-16D2D9FF7C4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EF72B01-2FB4-480A-AB5C-16D2D9FF7C4C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C532FE18-363E-4A85-B964-B68552851B58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C532FE18-363E-4A85-B964-B68552851B58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C532FE18-363E-4A85-B964-B68552851B58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C532FE18-363E-4A85-B964-B68552851B58}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {28D5AA3F-68FB-47E8-A21F-0C3E7951CC88}
+	EndGlobalSection
+EndGlobal
