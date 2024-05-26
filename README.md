@@ -10,7 +10,7 @@ The system needs to be horizontally scalable to be able to handle  high load (wh
   1) accepts HTTP requests from push API (endpoint per data source)
   2) temporary stores incoming data in certain format in storage
   3) performs analysis (i.e. similar deal analysis ...)
-- Storage - provides distributed access analyzed data
+- Storage - provides distributed access to analyzed data
 
 If there is a big disparity in load between different data sources, each data source (endpoint) cab be separated service for more granular horizontal scaling.
 
