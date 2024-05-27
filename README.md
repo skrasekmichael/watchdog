@@ -84,8 +84,7 @@ CD to kubernetes (with configured horizontal scaling etc.) with some strategy fo
   - assignment states that:
     - configuration contains *"servers to connect to (multiple servers can be provided at once, different trading platforms in the future)"*
 	- but also that *"DXtrade Push API will be the primary data source"*
-  - is the configuration only for CORS configuration?
-  - or are there multiple forms of data sources and the app has to connect to the servers to receive realtime data over some protocol?
+  - are there multiple forms of data sources and the app has to connect to the servers to receive realtime data over some protocol?
   - or does the app only needs to do some login to these servers so that the servers start sending push notifications?
 - ratio comparison clarification:
   - how exactly is the ration calculated (I am assuming $\frac{lot}{balance}$ or maybe $\frac{lot \cdot C}{balance}$)
